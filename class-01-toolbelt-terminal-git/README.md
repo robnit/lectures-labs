@@ -1,34 +1,71 @@
+## **Week 1: Basic HTML, CSS, JS**
 # Class 1: Introduction to the Tools and Fundamentals of Development
 
-<a id="top"></a>
-# Today's Plan: Week 1, Monday Lecture
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
 
-**Agenda**
+<hr></hr>
 
-This first day of class is an all-day session with the students that is mostly lecture.
+## Schedule
+1. Welcome! Intros and orientation
+1. Code Review/Preview
+1. Terminal and Git
+1. VS Code and Chrome Dev Tools
+1. Demo
+1. Lab Prep
 
-- [Kickoff!](#kickoff)
-- [Academic Overview](#academic)
-- [Tools: Terminal, Git, VS Code](#ug)
-  - [Verify Student Toolbelts](#toolbelt)
-- [Go over the assigned readings](#readings)
+## Learning Objectives
 
-*Lunch Break*
-
-- [Continuing going over the assigned readings](#readings)
-- [Code demo to prep for lab](#code)
-- [LAB](#lab)
-  - Write code as outlined in the lab assignment
-
-**Learning Objectives**
-
+- Create folders and files for a project using the command line.
+- Navigate through folders, view and create files, and open folders and files in VS Code using the command line.
+- Customize VS Code to check our JavaScript by installing ESLint.
 - Create a web page using organized, hierarchical HTML.
 - Capture user input using the browser's `prompt` and `confirm` methods.
 - Create an interactive web page by including JavaScript in a `<script>` tag.
 - Create an interactive experience for a user using the browser's `alert` method.
-- Create folders and files for a project using the command line.
-- Navigate through folders, view and create files, and open folders and files in VS Code using the command line.
-- Customize VS Code to check our JavaScript by installing ESLint.
+
+## Notes
+
+- Welcome!
+  - Introductions
+  - Campus Orientation
+  - Class info
+    - Schedule: 9-12 lecture, 12-1 lunch, 1-6 lab
+    - Modules:
+      - Week 1: Basic HTML, JS, CSS
+      - Week 2: Working with the DOM
+      - Week 3: Working with Libraries
+      - Week 4: Project Week!
+    - Assignments, Quizzes, Grading
+      - In Canvas: "Modules"
+      - Daily Learning Journals
+      - Readings
+      - Labs
+      - Quizzes thrice a week (T, W, F)
+    - Weekly Feedback surveys!
+    - Learning tips and tricks
+- Code Review/Preview
+  - Most days we will start by doing a Code Review of yesterday's lab
+  - On Mondays, we'll start with a preview of what we're going to build and cover that week
+  - This week: [About Me web page]()
+    - JS: data types, operators, conditionals, loops, functions
+    - HTML: structure, semantic tags, attributes
+    - CSS: box model, cascading rules
+    - Tools: Git, Terminal, GitHub, Chrome Dev Tools, VS Code, your computer!
+- Your new tools!
+  - Terminal
+    - follow along: create class directory
+  - Git
+    - follow along: verify git is installed with `git --version`
+  - VS Code
+    - follow along: install eslint
+  - Chrome Developer Tools
+    - follow along: change [codefellowspdx.com](http://codefellowspdx.com) copy
+  - Github
+    - follow along: star our class repo
+- Demo: using them all together
+- Lab Prep
+  - How to make a Gist
+
 
 ## Readings
 
@@ -37,54 +74,6 @@ This first day of class is an all-day session with the students that is mostly l
 - HTML Chapter 17: "HTML5 Layout"
 - HTML Chapter 18: "Process & Design"
 - JS Chatper 1: "The ABC of Programming"
-
-<a id="kickoff"></a>
-## Kickoff!
-
-[Slides: 1-first-day-orientation.pdf](slides/1-first-day-orientation.pdf)
-
-This is the welcome and introduction to Code Fellows. Students will meet the campus manager and learn about campus operations and policies.
-
-[-top-](#top)
-
-<a id="academic"></a>
-## Academic Overview
-
-[Slides: 2-academic-overview.pdf](slides/2-academic-overview.pdf)
-
-The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at Code Fellows.
-
-[-top-](#top)
-
-<a id="toolbelt"></a>
-## Verify Student Toolbelts
-
-By doing a few quick tests and exercises, as detailed below, ensure that students have functionality of all of the core pieces of their development environment:
-- VS Code: type `code` in the command line to verify that it opens properly. Command line tools may need to be installed.
-- Chrome: how to open the console
-- Git: enter `which git` in the command line to verify installation
-- Directory structure: Have students set up a directory at ~/codefellows/201/ in which they will store their classwork. Go over directory structure in general; compare to GUI.
-
-[-top-](#top)
-
-<a id="ug"></a>
-## Unix & Git
-
-[Slides: 3-unix.pdf](slides/3-unix.pdf)
-[Slides: 4-git-intro.pdf](slides/4-git-intro.pdf)
-
-Slides to introduce students to core concepts of file management from the command line and the fundamentals of Git and GitHub.
-
-[-top-](#top)
-<!--
-<a id="linter"></a>
-## Set up a JavaScript linter
-Have students go to the command line and `apm install linter-eslint`. Have them open a new tab in their terminal ( which also shows them that this is something they can do!) and cd to their home directory. Then `atom .eslintrc` in their home directory and copypasta the contents of the .eslintrc file (send it through the class Slack channel, which is a nice verification of that functionality). Then go into the package settings in Atom and make sure that it is looking for that .eslintrc
-
-[-top-](#top)-->
-
-<a id="readings"></a>
-## Go over the assigned readings
 
 **HTML Chapter 1: "Structure"**
 
@@ -121,7 +110,7 @@ Have students go to the command line and `apm install linter-eslint`. Have them 
   - Wireframes
 - Visual hierarchy, grouping, navigation
 
-**JS Chatper 1: "The ABC of Programming"**
+**JS Chapter 1: "The ABC of Programming"**
 
 - p.16 	Designing a script
 - p.28 	Objects & properties
@@ -131,14 +120,5 @@ Have students go to the command line and `apm install linter-eslint`. Have them 
 - p.44 	How HTML, CSS, JS work together			
 - p.45 	Progressive enhancement
 - p.51 	JavaScript runs where it is found in the HTML
-
-**We also need to discuss the role of *pseudocode*, which is something the Duckett text does not cover very well.
-
-[-top-](#top)
-
-<a id="code"></a>
-## Live code
-
-This code demo is to help students be ready to complete the first assignment and also to show off some functionality of the REPL and Chrome Developer Tools. This demo should also reveal any lingering issues with student computer setups.
 
 [-top-](#top)
