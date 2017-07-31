@@ -49,4 +49,4 @@ Each class has its own subdirectory that will be made available the day before.
 
 # Required Computer Setup
 
- To get your computer set up for class, go to [github.com/codefellowspdx/code-201-prework](https://github.com/codefellowspdx/code-201-prework#3-complete-the-setup-guide-for-your-computers-operating-system-multiple-downloads-are-involved-1-3-hours-depending-on-your-network-speed) and follow the instructions for your particular operating system. Note that we will be installing and using VS Code, not Atom. If you encounter problems, contact an instructor immediately.
+ To get your computer set up for class, go to [github.com/alchemycodelab/code-201-prework](https://github.com/alchemycodelab/code-201-prework#3-complete-the-setup-guide-for-your-computers-operating-system-multiple-downloads-are-involved-1-3-hours-depending-on-your-network-speed) and follow the instructions for your particular operating system. Note that we will be installing and using VS Code, not Atom. If you encounter problems, contact an instructor immediately.

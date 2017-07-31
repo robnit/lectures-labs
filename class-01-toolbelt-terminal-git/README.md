@@ -37,12 +37,25 @@
       - Week 4: Project Week!
     - Assignments, Quizzes, Grading
       - In Canvas: "Modules"
-      - Daily Learning Journals
-      - Readings
-      - Labs
-      - Quizzes thrice a week (T, W, F)
-    - Weekly Feedback surveys!
+      - Percentage Breakdown:
+        - Attendance (10%)
+        - Prework (5%)
+        - Readings/Discussions + Learning Journals (10%)
+        - Labs (30%)
+        - Quizzes thrice a week (T, W, F) (10%)
+        - Final Project + Exam (30%)
+        - Surveys (5%)
+      - TA's will do the bulk of the grading; SJ will read/grade learning journals
+      - Late work: 
+        - On time submissions with more than 2pts will be regraded w/o penalty
+        - On time submissions with less than 2pts will be regraded w/ 2pt penalty
+        - Late learning journals will not be graded.
     - Learning tips and tricks
+      - Ask questions!
+      - Remember that you're a student and you're learning.
+      - You will most likely be wrong more often than you are right - the important thing is being able to figure things out, rather than coming up with the right answer immediately all the time
+      - Have a growth mindset; you are 100% capable of learning this material.
+      - We all contribute to this learning environment. Be kind and considerate of one another; realize everyone learns at a different pace; everyone has something to teach you.
 - Code Review/Preview
   - Most days we will start by doing a Code Review of yesterday's lab
   - On Mondays, we'll start with a preview of what we're going to build and cover that week
@@ -59,7 +72,7 @@
   - VS Code
     - follow along: install eslint
   - Chrome Developer Tools
-    - follow along: change [codefellowspdx.com](http://codefellowspdx.com) copy
+    - follow along: change [google.com](http://google.com) copy
   - Github
     - follow along: star our class repo
 - Demo: using them all together
