@@ -46,7 +46,7 @@
 - Code Review/Preview
   - Most days we will start by doing a Code Review of yesterday's lab
   - On Mondays, we'll start with a preview of what we're going to build and cover that week
-  - This week: [About Me web page]()
+  - This week: About Me web page
     - JS: data types, operators, conditionals, loops, functions
     - HTML: structure, semantic tags, attributes
     - CSS: box model, cascading rules
@@ -120,5 +120,3 @@
 - p.44 	How HTML, CSS, JS work together			
 - p.45 	Progressive enhancement
 - p.51 	JavaScript runs where it is found in the HTML
-
-[-top-](#top)
