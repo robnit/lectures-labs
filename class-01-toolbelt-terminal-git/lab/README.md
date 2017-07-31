@@ -1,6 +1,10 @@
 # Assignment Overview: Lab for Class 1
+There are three things to finish for lab today:
 
 - Write a program that accepts user input and, based on that input, displays messages back to the user.
+- Install [Node.js](https://nodejs.org/en/)
+    - Make sure it's installed by running `node -v` in your terminal
+- Create your learning journal and write your first entry! More info in the [learning journal README](https://github.com/acl-201d-summer-2017/lectures-labs/tree/master/learning-journal).
 
 
 # Technical Requirements

@@ -78,6 +78,7 @@
 - Demo: using them all together
 - Lab Prep
   - How to make a Gist
+  - Install [Node.js](https://nodejs.org/en/)
 
 
 ## Readings
