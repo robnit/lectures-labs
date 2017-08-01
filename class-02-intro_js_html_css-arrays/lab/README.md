@@ -27,7 +27,7 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 ### Technical Requirements for "About Me"
 
 - A new GitHub repo called `about_me` will be initialized for this assignment (with a README and a license, of course)
-- Clone this repo to the root level of your `~/codefellowspdx/201/` directory on your computer.
+- Clone this repo to the root level of your `~/acl/201/` directory on your computer.
 - Add an `index.html` file, a `style.css` file, and an `app.js` file to your repo, and get the files "wired up together" so to speak.
 - HTML, CSS, and JavaScript must be cleanly written with correct indentation and syntax. Look at examples online and in your textbook. Note that your JS must pass the rules in the linter that we installed.
 - Your JS file contains a 'use strict' declaration at the top. Always.
@@ -42,6 +42,8 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 - Use a child selector in your CSS.
 
 ### Supporting Information
+
+- For example `.gitignore` and `.eslintrc` files, [see this example repo](https://github.com/sajoy/about_me)
 
 #### Git
 
