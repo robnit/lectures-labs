@@ -14,11 +14,11 @@
 - Lab Prep: Pair Programming!!
 
 ### Announcements
-	- Thoughts on lab time:
-		- Use [MDN](https://developer.mozilla.org) as a resource! Or [stack overflow](https://stackoverflow.com/).
-		- Don't write a million things before running your code! Write 2 things, run it, compare results with your expectations, repeat.
-		- The very first thing you should do if something isn't working: **check your browser console for errors**. As you learn more, you'll develop your own mental checklist of things to check (are my files linked together, is my code commented out, etc), but the browser should be a go-to!
-	- Quiz 2 is due at 11:59p tonight (Thursday).
+- Thoughts on lab time:
+	- Use [MDN](https://developer.mozilla.org) as a resource! Or [stack overflow](https://stackoverflow.com/).
+	- Don't write a million things before running your code! Write 2 things, run it, compare results with your expectations, repeat.
+	- The very first thing you should do if something isn't working: **check your browser console for errors**. As you learn more, you'll develop your own mental checklist of things to check (are my files linked together, is my code commented out, etc), but the browser should be a go-to!
+- Quiz 2 is due at 11:59p tonight (Thursday).
 	- Keep in mind that the quizzes are open-book, so do use the resources you choose to figure out the answers: books, internetz, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take on the last weekend of this class (right before Project Week).
 
 ### Learning Objectives
@@ -30,7 +30,7 @@
 
 ### Notes
 
--JavaScript functions
+- JavaScript functions
 	- parts of a function
 	- declaration v. expression
 	- scope
@@ -56,7 +56,7 @@
 			- important rules in author style sheet
 			- important rules in user style sheet
 
--GitHub Fork and Pull Request
+- GitHub Fork and Pull Request
 	- what is a fork?
 	- what is a pull request?
 
