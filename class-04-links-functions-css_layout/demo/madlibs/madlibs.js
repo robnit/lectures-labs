@@ -1,18 +1,28 @@
-// TODO add function to make my code more DRY
+madLibs();
 
-alert( 'Mad Libs time!' );
+function madLibs () {
+    alert( 'Mad Libs time!' );
 
-var name = prompt( 'Give me a name' );
-console.log( 'Name: ' + name );
+    var name = askFor( 'name' );
+    // var name = prompt( 'Give me a name' );
 
-var verb = prompt( 'Give me a verb ending with "ed"' );
-console.log( 'Verb: ' + verb );
+    var verb = askFor( 'verb' );
+    var noun = askFor( 'noun' );
+    var adjective = askFor( 'adjective' );
 
-var noun = prompt( 'Give me a noun' );
-console.log( 'Noun: ' + noun );
+    alert( 'Here\'s a story all about how ' + name + '\'s life got ' + verb + ', turned upside down.' );
+    alert( 'They witnessed a quick red ' +  noun + ' jump over a lazy ' + adjective + ' dog!');
+}
 
-var adjective = prompt( 'Give me an adjective' );
-console.log( 'Adjective: ' + adjective );
+var questions = ['hello?', 'it\'s me?'];
 
-alert( 'Here\'s a story all about how ' + name + '\'s life got ' + verb + ', turned upside down.' );
-alert( 'They witnessed a quick red ' +  noun + ' jump over a lazy ' + adjective + ' dog!');
+function askFor ( word ) {
+    var answer = prompt( 'Give me a ' + word );
+    console.log( word + ': ' + answer );
+    return answer;
+}
+
+for ( var i = 0; i < 3; i++ ) {
+    console.log( 'loop #: ' + i );
+    askFor( questions[i] );
+}
