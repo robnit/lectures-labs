@@ -39,7 +39,7 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - Inside of the Driver's main work directory on their laptop, make a directory with your partner’s name and then navigate (cd) into it. From there, enter the command `git clone the-https-link-you-copied`. That will create a local version of the forked repo on the Driver's laptop.
 
-- 'cd' into that directory and enter 'code .' in the terminal to open all of the files in Atom.
+- `cd` into that directory and enter `code .` in the terminal to open all of the files in VS Code.
 
 - Start working on the code!
 
