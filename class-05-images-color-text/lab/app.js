@@ -24,7 +24,7 @@ a new branch for your work on the next question!
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
-
+    return ('The sum of ' + a + 'and ' + b + ' is ' + (a + b));
 }
 
 // Here is the test for sum(); uncomment it to run it
