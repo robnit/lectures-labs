@@ -154,6 +154,7 @@ that were input into the function:
 
 "The numbers 2,3,4 have a product of 24."
 
+
 IMPORTANT DETAIL: You may not use the arithmetic operator * in this 
 function. To do multiplication, use your multiply() function that 
 you've already created. You're going to have to be resourceful to 
@@ -170,8 +171,12 @@ new branch for your work on the next question!
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-
+    var arrayProduct = 1;
+    for (var i = 0; i < testArray.length; i++){
+        arrayProduct = multiply( arrayProduct, testArray[i] )[0];
+    }
+    return [arrayProduct, 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + arrayProduct + '.'];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+ testMultiplyArray(2,3,4);
