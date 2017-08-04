@@ -11,6 +11,7 @@ the values that were input into the function:
 
 "The sum of 4 and 7 is 11."
 
+
 Test this function by hand in the console to get it working,
 and when you think it is finished, uncomment the call
 for the testSum() function below and check the console 
@@ -24,7 +25,8 @@ a new branch for your work on the next question!
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
-
+    var total = a+b;
+    return [total, 'The sum of ' + a + ' and ' + b + ' is ' + total + '.'];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -43,6 +45,8 @@ were input into the function:
 
 "The product of 5 and 9 is 45."
 
+
+
 Test this function by hand in the console to get it working,
 and when you think it is finished, uncomment the call for the 
 testMultiply() function and see if the test passes.
@@ -54,11 +58,12 @@ create a new branch for your work on the next question!
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+    var total = a * b;
+    return [total, 'The product of ' + a + ' and ' + b + ' is ' + total +'.'];
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+ testMultiply(5,9);
 
 
 /////////////////////////////////////
@@ -92,7 +97,6 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
-
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
