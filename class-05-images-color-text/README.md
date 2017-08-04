@@ -23,6 +23,13 @@
 - Understand CSS layout principles including block, inline, normal, relative, absolute, float, and fixed.
 
 ### Notes
+- Code Review
+	- [PR to Frank's code](https://github.com/Orphin/About-me/pull/2/files)
+	- Hit the `View` button to see the code without the diff (the red and green lines)
+- JavaScript review
+	- write a function that takes a number as a parameter and console.logs "TGIF" that many times
+	- write a function that takes a string and a number as parameters and console.logs the string that many times
+	- write a function that takes an array as a parameter and returns the last item in the array 
 - HTML
 	- images
 	- figures
@@ -33,7 +40,6 @@
 		- background
 		- html img tag
 	- fonts
-- JavaScript review
 - Deploy to GH Pages
 	- make a useful README.md
 		- [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
