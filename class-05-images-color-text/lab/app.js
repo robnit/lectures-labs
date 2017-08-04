@@ -97,10 +97,13 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+    var summ = sum(sum(a,b)[0],c)[0];
+    var prodct = multiply(multiply(a,b)[0],c)[0];
+    return [summ, prodct, a + ' and ' + b + ' and ' + c + ' sum to ' + summ + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + prodct + '.'];
+    //arr [ sum , product , "4 and 7 and 5 sum to 16.", "The product of 4 and 7 and 5 is 140."]
 }
-
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+ testSumAndMultiply(4,7,5);
 
 
 /////////////////////////////////////
